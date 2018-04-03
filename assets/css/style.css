@@ -1,0 +1,28 @@
+
+
+.jumbotron {
+    text-align: center;
+    background-image: url("../images/conductor.jpeg");
+    background-size: 1100px;
+    color: white;
+}
+h5,h3 {
+    color: wheat;
+}
+
+button, div, form, input {
+	margin: 5px;
+}
+
+body {
+    background-image: url("../images/choo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.holder {
+    float: left;
+}
+
+
+
