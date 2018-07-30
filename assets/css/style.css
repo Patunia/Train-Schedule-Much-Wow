@@ -2,7 +2,7 @@
 
 .jumbotron {
     text-align: center;
-    background-image: url("../images/conductor.jpeg");
+    background-image: url("/images/conductor.jpeg");
     background-size: 1100px;
     color: white;
 }
@@ -15,7 +15,7 @@ button, div, form, input {
 }
 
 body {
-    background-image: url("../images/choo.png");
+    background-image: url("/images/choo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
