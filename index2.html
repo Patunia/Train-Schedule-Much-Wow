@@ -1,38 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
         <meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <title>Trainz</title>
-
-    <!-- reset stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-
-	<!-- Bootstrap  -->
-    <link
-    rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-
-	<!-- Bootswatch -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://bootswatch.com/3/cerulean/bootstrap.min.css">
-
-	<!-- FontAwesome -->
-    <script
-    defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
-    integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
-    crossorigin="anonymous"></script>
-
-    <!-- CSS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	<!-- jQuery -->
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
 	<!-- Moment -->
     <script src="https://cdn.jsdelivr.net/npm/moment@2.22.0/moment.min.js"></script>
@@ -56,7 +36,6 @@
 	<div class="row">
 		<div class="col-md-3">
 
-			<!-- <div class="container"> -->
 			<div class="panel-group">
 				<div class="panel panel-primary">
                     <div class="panel-heading"><i class="fas fa-search"></i> Add Train</div>
@@ -85,46 +64,37 @@
 					</form>
 				</div>
 			</div>
-			<!-- </div> -->
 		</div>
 
 		<div class="col-md-8">
-			<div class="container-fluid"></div>
-
-				<!-- <div class="panel-group"> -->
-					<div class="panel panel-primary">
-						<div class="panel-heading"><i class="far fa-clock"></i> Current Train Schedule (25 latest entries)
-						<button type="button" class="btn btn-default btn-sm"><i class="fas fa-retweet"></i> Refresh</button></div>
-							<div class="panel-body">
-								<div class="table-responsive-xlg">
-									<table class="table table-striped">
-										<thead>
-											<tr>
-												<th><strong>Train name</strong></th>
-												<th><strong>Destination</strong></th>
-												<th><strong>Frequency (min)</strong></th>
-												<th><strong>Next arrival</strong></th>
-                                                <th><strong>Minutes away</strong></th>
-
-												<!-- <th><strong>Update</strong></th> -->
-											</tr>
-										</thead>
-										<tbody id="new-train">
-									</tbody>
+			<div class="container-fluid">
+				<div class="panel panel-primary">
+					<div class="panel-heading"><i class="far fa-clock"></i> Current Train Schedule (25 latest entries)
+					<button type="button" class="btn btn-default btn-sm"><i class="fas fa-retweet"></i> Refresh</button></div>
+						<div class="panel-body">
+							<div class="table-responsive-xlg">
+								<table class="table table-striped">
+									<thead>
+										<tr>
+											<th><strong>Train name</strong></th>
+											<th><strong>Destination</strong></th>
+											<th><strong>Frequency (min)</strong></th>
+											<th><strong>Next arrival</strong></th>
+											<th><strong>Minutes away</strong></th>
+										</tr>
+									</thead>
+									<tbody id="new-train"></tbody>
 								</table>
 							</div>
 						</div>
 					</div>
-
-                    <!-- </div> -->
+				</div>
 			</div>
 		</div>
-	</div>
-</div>
 
 <footer id="footer" class="site-footer">
 	<div class="container">
-		&copy; Copyright 2018 Patricia Joanna Borowiec
+		&copy; 2018 PJB and coding bootcamp
 	</div>
 </footer>
 
